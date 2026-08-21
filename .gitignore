@@ -1,0 +1,4 @@
+data/*.mmdb
+data/*.gz
+data/*.tmp
+.DS_Store

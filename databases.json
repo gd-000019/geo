@@ -1,0 +1,39 @@
+{
+  "databases": {
+    "geolite2": {
+      "filename": "GeoLite2-City.mmdb",
+      "url": "https://cdn.jsdelivr.net/npm/geolite2-city/GeoLite2-City.mmdb.gz",
+      "fallback_url": "https://github.com/sapics/ip-location-db/raw/main/geolite2-city/geolite2-city.mmdb.gz",
+      "license": "GeoLite2 License / CC BY-SA 4.0",
+      "attribution": "MaxMind",
+      "purpose": "City, postcodes, timezones",
+      "update_frequency": "Twice weekly"
+    },
+    "dbip": {
+      "filename": "dbip-city-lite.mmdb",
+      "url": "https://cdn.jsdelivr.net/npm/dbip-city-lite/dbip-city-lite.mmdb.gz",
+      "fallback_url": "https://github.com/sapics/ip-location-db/raw/main/dbip-city-lite/dbip-city-lite.mmdb.gz",
+      "license": "CC BY 4.0",
+      "attribution": "DB-IP",
+      "purpose": "City data fallback",
+      "update_frequency": "Monthly"
+    },
+    "asn": {
+      "filename": "GeoLite2-ASN.mmdb",
+      "url": "https://cdn.jsdelivr.net/npm/geolite2-asn/GeoLite2-ASN.mmdb.gz",
+      "fallback_url": "https://github.com/sapics/ip-location-db/raw/main/geolite2-asn/GeoLite2-ASN.mmdb.gz",
+      "license": "CC BY-SA 4.0",
+      "attribution": "MaxMind",
+      "purpose": "ASN number and organization",
+      "update_frequency": "Twice weekly"
+    },
+    "origin_asn": {
+      "filename": "origin-asn.mmdb",
+      "url": "https://github.com/sapics/ip-location-db/releases/download/latest/origin-asn.mmdb",
+      "license": "PDDL",
+      "attribution": "sapics/ip-location-db",
+      "purpose": "BGP origin ASN and routed prefix",
+      "update_frequency": "Daily"
+    }
+  }
+}
