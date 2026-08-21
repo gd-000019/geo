@@ -1,13 +1,13 @@
 # geo
 
-CLI for IP geolocation using local MaxMind and DB-IP databases.
+CLI for IP geolocation using local MaxMind, DB-IP and ASN databases.
 
 ## Features
 
 - IP geolocation lookup
 - Reverse DNS hostname lookup
 - ASN and organization lookup
-- BGP/ASN network prefix detection
+- Network prefix lookup
 - Public and non-public IP detection
 - Country, flag, region and city
 - Coordinates, timezone and postal code
@@ -96,12 +96,13 @@ python3 geo.py --populate --force
 ## Requirements
 
 ```text
-Python 3
+python 3
 maxminddb
 ```
 
+```markdown
 No external API keys are required. GeoIP data is read locally; hostname lookup uses the system DNS resolver.
-
+```
 
 ## Data Sources and Licensing
 
